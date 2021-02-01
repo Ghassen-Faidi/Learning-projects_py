@@ -1,0 +1,15 @@
+algorithm OddEven
+
+Ecrire("Type a number: ")
+Lire(num)
+
+Si num mod 2 == 0
+	msg <---- "Is even"
+	si num == 4
+		Ecrire("This is FOUR!")
+sinon
+	msg <---- "Is odd"
+
+Ecrire(num, msg)
+
+Fin OddEven

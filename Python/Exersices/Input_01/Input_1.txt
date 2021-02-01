@@ -1,0 +1,13 @@
+algorithm input_1
+
+Ecrire("Type you name: ")
+Lire(name)
+
+Ecrire("Type you age: ")
+Lire(age)
+
+year = 2021 - age + 100
+
+Ecrire("Hello", name"!, you are", age, "years old.", "you will be 100 yo in", year )
+
+Fin input_1
